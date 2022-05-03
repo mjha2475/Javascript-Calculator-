@@ -1,6 +1,9 @@
  
 
 /* Create the Outer layout of the Calculator. */  
+body{
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
 .formstyle  
 {  
 width: 300px;  
@@ -22,8 +25,11 @@ h1 {
     }  
 input:hover  
 {  
-background-color: blue;  
+background-color:plum;  
 }  
+input.textview:hover{
+    background-color: aqua;
+}
       
 *{  
 margin: 0;  
